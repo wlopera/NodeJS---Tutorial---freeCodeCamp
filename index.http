@@ -1,0 +1,15 @@
+
+GET http://localhost:3000/api/courses HTTP/1.1
+
+###
+GET http://localhost:3000/api/courses/programmers HTTP/1.1
+
+###
+GET http://localhost:3000/api/courses/maths HTTP/1.1
+
+
+#### 
+POST http://localhost:3000/api/courses/programmers HTTP/1.1
+
+###
+PUT  http://localhost:3000/api/courses HTTP/1.1
