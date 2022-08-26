@@ -1,0 +1,380 @@
+---------------------------------------------------------------------------------------------------------------------------------------
+¿Que es React JS?
+---------------------------------------------------------------------------------------------------------------------------------------
+ReactJS, es una librería front-end. Basada en el lenguaje JavaScript, creada por Facebook. 
+El propósito principal de esta librería, es brindar una interfaz de usuario multiuso.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------
+¿Por qué deberíamos utilizar ReactJS?
+---------------------------------------------------------------------------------------------------------------------------------------
+	1.- DOM virtual en lugar de DOM real
+	2.- Rápido y escalable
+	3.- JSX proporciona un código que es fácil de leer y escribir
+	4.- React se puede integrar fácilmente a cualquier otra estructura del lenguaje JavaScript
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------	
+"DOM real" y "DOM virtual"
+---------------------------------------------------------------------------------------------------------------------------------------
+DOM, acrónimo de "Document Object Model". 
+Los DOMs son utilizados para comprender ciertos tipos específicos de texto. Por ejemplo, cuando se trata del desarrollo web o de aplicaciones, 
+DOM es utilizado para representar los textos en HTML.
+
+ReactJS utiliza lo que llamamos DOM virtual. Simplemente, son una copia de los textos HTML de React. Además, de ser una representación del DOM real.
+DOM virtual es mucho más rápido y económico que el real.	
+	- React valida en el DOM virtual los cambios y solo refresca al DOM real lo que cambia
+	-> DOM Real refrescaria toda la pagina por cualquier cambio en el mismo.
+---------------------------------------------------------------------------------------------------------------------------------------	
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+¿Qué es JSX?
+---------------------------------------------------------------------------------------------------------------------------------------
+	JSX, acrónimo de JavaScript XML. React JS utiliza este archivo para hacer que el código HTML sea mucho más fácil de leer y escribir. 
+	Además, JSX puede impulsar el rendimiento de tu aplicación y/o sitio web.
+	- Convierte etiquetas HTML en elementos de React.
+	- Nos permite escribir elementos HTML en JavaScript y colocarlos en el DOM sin ningún método
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------
+¿Qué son los "componentes"?
+---------------------------------------------------------------------------------------------------------------------------------------
+Los Componentes de ReactJS representan las funciones del lenguaje JavaScript. Estos dividen la interfaz de usuario en partes separadas  
+y permite que la UI será reutilizable al momento que el desarrollador lo necesite.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------
+¿Cuáles son las etapas de vida de un componente?
+---------------------------------------------------------------------------------------------------------------------------------------
+Existen tres etapas durante dicho ciclo de vida: 
+	- Inicialización
+	- Actualización de estados 
+	- Destrucción.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------
+¿Existe alguna diferencia entre un "componente" y un "elemento"?
+---------------------------------------------------------------------------------------------------------------------------------------
+Sí, Un componente de React acepta entradas y devuelve el elemento, lo cual es simplemente una descripción de lo que puedes ver en pantalla.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------
+¿Los exploradores web pueden leer JSX?
+-------------------------------------------------------------------------------------------------------------------------------
+No, no pueden.
+Los exploradores web están configurados de cierta manera que solo son capaces de leer objetos JavaScript. 
+Aunque similares, un objeto JSX no es lo mismo a un objeto JS.
+
+Sin embargo, puedes hacer que funcione. Simplemente lo que tendrás que hacer es transformar el objeto JSX en uno de JavaScript.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+¿Qué es "flux"?
+---------------------------------------------------------------------------------------------------------------------------------------
+Flux, permite crear diferentes capas de información (datos) dentro de tu aplicación. Flux es importante porque fue diseñado 
+por Facebook al mismo tiempo que trabajaban con React.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------
+¿Para qué se utiliza "setState"?
+---------------------------------------------------------------------------------------------------------------------------------------
+Cuando ordenas un comando "setState", un objeto se fusiona con el estado actual. Luego, la interfaz de usuario es actualizada de acuerdo
+ al nuevo estado.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------
+¿Qué es un "estado"?
+---------------------------------------------------------------------------------------------------------------------------------------
+¿Recuerdas cuando hablamos acerca de los ciclos de vida de un componente? 
+	Los estados son objetos que contienen ciertos datos dentro de ellos. 
+    Los datos pueden ser alterados durante el ciclo de vida de un componente, dependiendo de los eventos que lo influencian.
+	- Los comnponentes presentan estados que van cambiando durante su ciclo de vida. (setState para clases y useState para Hooks).
+	
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------
+¿Qué son los "props"?
+---------------------------------------------------------------------------------------------------------------------------------------
+	"Props", significa "propiedades". 
+	Los componentes principales le brindan props a los componentes secundarios para de esta forma mantener el cuadro de la aplicación.
+	Son Inmutables por el componente secundario o los que lo reciben.
+
+---------------------------------------------------------------------------------------------------------------------------------------	
+
+---------------------------------------------------------------------------------------------------------------------------------------
+¿Qué es una "función de flecha"?
+---------------------------------------------------------------------------------------------------------------------------------------
+Dado que no hay una función predeterminada para vincular automáticamente los componentes de React, 
+	==> Una función de flecha permite al desarrollador asociar contextos de dos componentes diferentes.
+---------------------------------------------------------------------------------------------------------------------------------------	
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------	
+¿Qué es React Redux?
+---------------------------------------------------------------------------------------------------------------------------------------	
+Si tienes una aplicación de JavaScript, desarrollada con Flux, puedes aplicar Redux como contenedor. En tales situaciones, 
+Redux se convierte en un contenedor de estado predecible.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------------------------------------------	
+---------------------------------------------------------------------------------------------------------------------------------------
+NODEJS
+---------------------------------------------------------------------------------------------------------------------------------------	
+¿Qué es Node?
+---------------------------------------------------------------------------------------------------------------------------------------	
+ - Un entorno de ejecución (runtime) JS: Herramientas que permiten ejecutar procesos, eventos y código JS. Desde una terminal 
+	sin necesidad de un navegador. (Backend: Servidor, Uso de APIs)
+ - Orientado a eventos asíncronos: Se ejecuta independientemente del proceso principal de una aplicación. (ejemplos: crear un usuario, 
+	consultar información de una web, obtener información de una base de datos)
+ - Escalable: El rendimiento de la aplicación se puede adaptar a medida que crece la aplicación y recibe mas solicitudes.
+ - De tiempo real: Establece una conexión bidireccional y dinámica entre el cliente y el servidor. (Intercambio de información)
+ 
+ - Node NO es un lenguaje de programación, es un realtime (entorno de ejecución: herramientas para ejecutar código JS en nuestro terminal).
+ - Node NO es un framework
+ - Node NO es una librería (biblioteca)
+ 
+ 
+ Características:
+ ----------------
+ - Open-source (código abierto)
+ - Multiplataforma
+ - Basado en motor V8 de Google: Basado en el motor de JS usado por los entornos de navegadores.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------	
+Conceptos importantes:
+---------------------------------------------------------------------------------------------------------------------------------------	
+	- Motor de JS: Software que ejecuta código JS, usado por los entornos de navegadores.
+	- Arquitectura cliente-servidor: Modelo 	en el cual el Servidor envia recursos al dispositivo que lo solicita (Cliente).
+	- Desarrollo Frontend: Area de desarrollo web donde se desarrollan los componentes que ve el usuario y con los cuales interactúa.
+	- Desarrollo Backtend: Area de desarrollo web donde se desarrollan los servidores.
+	- PROTOCOLO: Conjunto de Reglas que permiten que dos entidades de una red se comuniquen (ejemplo: HTTp/HTTPs).
+	- BASES DE DATOS: Conjunto de datos estruturados sobre un mismo contexto que se pueden consultar.
+	- Páginas Web estatícas y dinámicas
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------	
+API
+---------------------------------------------------------------------------------------------------------------------------------------	
+API: Application Programming Interface: Interfaz de programación de aplicaciones. Intermediario entre distintos programas (ej: cliente-servidor)
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------	
+REPL: Herramienta de node
+---------------------------------------------------------------------------------------------------------------------------------------	
+REPL: Read - Eval - Print - Loop (ciclo de Leer, Evaluar, Imprimir, Mostrar)
+---------------------------------------------------------------------------------------------------------------------------------------	
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Módulos
+---------------------------------------------------------------------------------------------------------------------------------------	
+	- Funcionalidad organizada de uno o varios archivos JS que pueden ser reutilizables en una Aplicación (App)
+	
+	Ventajas:
+	--------
+	- Evitar repetir el código.
+	- Reutilizar código.
+	- Más fácil buscar y corregir bugs.
+	- Más fácil modificra y mantener el código.
+	- Más fácil agregar nuevas funcionalidades.
+	
+	import: Dale acceso a funciones y elementos definidos en otro módulo. (require en node)
+	export: Exponer una función o elementos definidos para que se consumo por otro módulo.
+	desestructuración: en extraer funciones o parametros de un objeto.
+	
+	- Módulos build-in: Incorporados directamente en Node. Herramientas que viene con node.
+	  - Http
+	  - https
+	  - fs (file system): Trabajar con el sistema de archivos
+	    - Métodos asíncronos o síncronos para procesar
+		  ej: - fs.rename(): Método asíncrono para renombrar archivo
+			  -	fs.renameSync(): Método síncrono para renombrar archivo
+	  - os (operating system)
+		- os.type(): tipo de sistema operativo deonde corre node.
+		- os.homedir(): Directorio principal
+        - os.userInfo(): Informacion del usuario
+		- os.uptime(): número de segundos trancurridos desde que se inicio el os.
+	  - path
+	  - process
+		- process.env: variables de ambiente
+		- process.argv: argumentos que se pueden pasar a la llamada
+		- process.memoryUsage() => uso de memoria de node
+	  - console: funcionalidad a la consola del navegador Web.
+	  - timers
+		- setTimeout(function, wait, args): Ejecutar código luego de un tiempo definido en milisegundos
+		- setInmediate(function, arg1, arg2): Se ejecuta después del último evento síncrono.
+		- setInterval(function, interval, arg1, arg2): Repetir código infinitas vaces con un retraso de milisegundos entre peticiones.
+	  - ...
+		
+---------------------------------------------------------------------------------------------------------------------------------------	
+
+---------------------------------------------------------------------------------------------------------------------------------------	
+NPM
+---------------------------------------------------------------------------------------------------------------------------------------
+npm: Archivo de software más grande del mundo que contine los paquetes que se pueden instalar con node.js
+---------------------------------------------------------------------------------------------------------------------------------------	
+
+---------------------------------------------------------------------------------------------------------------------------------------	
+Pachage
+---------------------------------------------------------------------------------------------------------------------------------------
+package: Archivo o directorio descripto por un archivo package.json.
+package-lock.json: Describe el árbol generado para futuras instalaciones.
+
+---------------------------------------------------------------------------------------------------------------------------------------	
+
+---------------------------------------------------------------------------------------------------------------------------------------	
+JSON
+---------------------------------------------------------------------------------------------------------------------------------------	
+	- Javascript Object Notation. 
+	- Es un formato de texto. 
+	- Basado en la notación de JS. 
+	- Almacena objetos de JS como texto
+	- Independiente del lenguaje de programación.
+	
+Características:
+----------------
+	- Datos se representan pares clave-valor (propiedades)
+	  - Las claves son cadenas de caracteres. Los valores si pueden variar de tipo.
+	- Puede contener:
+		- Cadena de caracteres
+		- Números
+		- Arreglos
+		- Boleanos
+		- Objetos
+		
+	- JSON.parse() => convierte cadenas de carateres en formato json a objetos de JS.
+	- JSON.stringify() => convierte de objeto JS a una cadena de caracteres EN FORMATO 	Json -> string
+	
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------	
+Evento
+---------------------------------------------------------------------------------------------------------------------------------------	
+	- Accion que desencadena un proceso.
+	
+Emmiters: Emisores	
+--------
+	- Objeto que emite un evento y llama a funciones especificas.
+	
+Clase:
+-----
+	- Son planos que describe un objeto (formato)
+	
+	- EventEmmiter: Clase que describe un objeto.
+		 - Método on() 		--> Asocia una función a un evento
+		 - Método emit() 	--> Emite un evento 
+		 
+		 -EventHandler: Función que se ejecuta al ocurrir el evento.
+		   
+	Módulo Events:
+		- Definir
+		- Emitir
+		- Escuchar
+---------------------------------------------------------------------------------------------------------------------------------------	
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Promise (Promesa)
+---------------------------------------------------------------------------------------------------------------------------------------	
+	- Objeto que representa el resultado o error de una operación asíncrona.
+		- Fullfilled (pendientes)
+		- Rejected  (rechazada)
+		
+		- Callback Function: Función que se ejecuta al completar el proceso asíncrono.
+		  -> Función que se pasa a otra función como argumento y luego se ejecuta dentro de la función externa.
+
+		- Método .then() -> Decidir qué ocurre al completarse la promesa (éxito o error )
+		
+		- Method Chaining: Encadenar metods --> .then(...).catch(..)
+		
+---------------------------------------------------------------------------------------------------------------------------------------	
+
+---------------------------------------------------------------------------------------------------------------------------------------	
+Asnc / Await
+---------------------------------------------------------------------------------------------------------------------------------------
+	- Funciones asíncronas retornan promesas
+	
+---------------------------------------------------------------------------------------------------------------------------------------	
+
+---------------------------------------------------------------------------------------------------------------------------------------	
+Modelo Cliente - Servidor
+---------------------------------------------------------------------------------------------------------------------------------------	
+	- Lo usamos para aceder a internet y obtener recirsos e información 
+	
+	- cliente: Navegador desde el cual se realizan solicitudes a un servidor
+	- servidor: Programa que se ejecuta en un servidor físico y ofrece un servicio al cliente. (Envía información)
+	- http: Protoco que define el formato d elos mensajes (Hypertext Transfer Protocol)
+	- Protocolo: Conjunto de reglas que permite trasmitir información entre dispositivos en una red.
+	
+	REQUEST:
+	-------
+		- Método HTTP: Verbo os ustantivo que indica que la intensión de la solicitud:  
+		  (GET/POST/PUT/DELETE, otros...)
+		    - GET: solicitar un recurso específico
+		    - POST: solicitar crear un recurso específico
+			- PUT: solicitar modificar un recurso específico
+			- DELETE: solicitar eliminar un recurso específico
+			
+		- Camino (Path)
+		- Versión HTPP
+		- Cabeceras (headers): proveen información adicional sobre esa solicitud
+		- Cuerpo (body): Información que debe ser enviada al servidor para su procesamiento.
+	
+	RESPONSE:
+	--------
+		- Código de estado: Código que define el tipo de respuesta (exitosa, rechazada o fallida)
+			- Respuestas informativas (100-199)
+			- Respuesta satisfactorias (200-299)
+			- Redirecciones (300-399)
+			- Errores de los clientes (400-499) -> Errores en la socilicitudes
+			- Errores de los servidores (500-599) -> Error del servidor, no p[udo procesar o esta caido, etc
+					-> https://developer.mozilla.org/es/docs/Web/HTTP/Status
+					
+			Códigos más comunes:
+			-------------------
+				- 200 OK: respuesta exitosa
+				- 400 Bad Request: El servidor no pudo interpretar la solicitud.
+				- 404 NOt Found: ERl servidor no encontro el recurso solicitado.
+				- 500 Internal Server Error: El servidor encontro una sictuación que no sabe cómo manejar
+		- Texto de estado
+		- Versión HTTP
+		- Cabeceras (headers): proveen información adicional sobre la respuesta
+		- Cuerpo (body): Información que debe ser enviada al cliente en caso de ser requerida o necesaria. En un formato especifico.
+	
+	Puerto: Ubicación virtual del sistemaoperativo en la cual se puede acceder a una aplicación o a un proceso específico que se ejecuta
+	en ese puerto.
+	
+	
+	url: protocolo://sub-dominio.dominio.dominioDeNivelSuperior (TLDs: org/gob/edu/net...)/caminoDelPath (path)
+		 ==> (https://www.freecodecamp.org/espanol/)
+		 
+	Parámetros: 
+	----------
+		- De ruta: Forman parte de camino del path: Ej: servcios restfull => http://www.example.org/users/14 (14 -> parámetro de ruta)
+		- Querys:  Forman parte de la consulta o búsqueda dinámica: Ej: https://www.goggle.com/search?class=cursos+de+node&var=test
+		           comienzan con ? y se separan con & (en pares-valoes)
+	
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------	
+Routing (rutas)
+---------------------------------------------------------------------------------------------------------------------------------------	
+	- Manejar las solicitudes del cliente en base a ciertos criterios 
+	
+	Criterios:
+	---------
+		1.- El método de la solictud HHTP. De esta forma el servidor sabe que tipo de operación debe realizar.
+		2.- Path: Ruta de la solcitud. Asi el servidor sabe cual recurso debe usar
+		
+---------------------------------------------------------------------------------------------------------------------------------------	
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------	
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------	
+---------------------------------------------------------------------------------------------------------------------------------------	
+---------------------------------------------------------------------------------------------------------------------------------------	
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------	
+
